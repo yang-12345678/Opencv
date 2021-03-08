@@ -31,14 +31,14 @@ def get_image_info(image):
 
 print("-----------hello world----------")
 # 图像读取
-src = cv.imread("C:\\Users\\Administrator\\Desktop\\vision\\u=2882008312,3095180572&fm=26&gp=0.jpg")
+# src = cv.imread("C:\\Users\\Administrator\\Desktop\\vision\\u=2882008312,3095180572&fm=26&gp=0.jpg")
 # 创建窗口
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 # cv.WINDOW_NORMAL 可手动调节大小
-cv.imshow("input image", src)
+# cv.imshow("input image", src)
 
 video_demo()
-get_image_info(src)
+# get_image_info(src)
 
 cv.waitKey()
 
