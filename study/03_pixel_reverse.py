@@ -46,17 +46,17 @@ def inverse(image):
 
 
 print("-----------hello world----------")
-src = cv.imread("C:\\Users\\Administrator\\Desktop\\vision\\u=2882008312,3095180572&fm=26&gp=0.jpg")  # blue green red
+src = cv.imread("000.jpg")  # blue green red
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 
-t1 = cv.getTickCount()
+# t1 = cv.getTickCount()
 
 access_pixels(src)
 
-t2 = cv.getTickCount()
-time = (t2 - t1) / cv.getTickFrequency()
-print("time: %f ms" % (time * 1000))
+# t2 = cv.getTickCount()
+# time = (t2 - t1) / cv.getTickFrequency()
+# print("time: %f ms" % (time * 1000))
 
 cv.waitKey(0)
 
