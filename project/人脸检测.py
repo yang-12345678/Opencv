@@ -3,9 +3,9 @@ import cv2 as cv
 
 def detect():
     # 创建人脸检测对象
-    face_cascade = cv.CascadeClassifier('../cascades/haarcascade_frontalface_default.xml')
+    face_cascade = cv.CascadeClassifier('./cascades/haarcascade_frontalface_default.xml')
     # 创建眼睛检测对象
-    eye_cascade = cv.CascadeClassifier('../cascades/haarcascade_eye.xml')
+    eye_cascade = cv.CascadeClassifier('./cascades/haarcascade_eye.xml')
     # 连接内置摄像头
     video = cv.VideoCapture(0)
     while True:
