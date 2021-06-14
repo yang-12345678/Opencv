@@ -17,6 +17,7 @@ def video_demo():
         c = cv.waitKey(50)
         if c == 27:  # esc
             break
+ 
 
 
 def get_image_info(image):
